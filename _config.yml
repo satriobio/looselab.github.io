@@ -1,0 +1,34 @@
+# Setup
+title: Loose Lab
+# url: ""
+# baseurl: ""
+future: false
+
+include:
+  - _pages
+
+# Gems
+plugins:
+  - jekyll-gist
+#   - jekyll-paginate
+#   - jekyll-seo-tag
+
+# Optimize Jekyll
+exclude:
+  - .editorconfig
+  - .git
+  - .github
+  - .jekyll-cache
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE.md
+  - README.md
+
+# Options
+
+# Replace this value and uncomment to enable Google Analytics tracking
+# ga_analytics: UA-000000-0
+
+# deploy vars for testing, these should be ignored by github pages
+host: 0.0.0.0
+port: 7800

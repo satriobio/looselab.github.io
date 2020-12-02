@@ -9,7 +9,7 @@ authors:
   <img src="/img/readfish_logo.jpg" width="400px">
 </div>
 
-Up until now ReadFish, and selective sequencing, have been limited to users 
+Up until now [ReadFish][7], and selective sequencing, have been limited to users 
 with both a linux OS and an NVIDIA GPU. In reality this requires a fairly 
 large box - be it a GridION or a desktop able to support an NVIDIA 1080 GPU 
 or above.
@@ -60,7 +60,7 @@ comparable (and on windows better!) than that seen on our original experiments.
   <a href="/img/BRCA1.png"><img src="/img/BRCA1.png"></a>
   <figcaption>
     Coverage over BRCA1 when using the COSMIC panel and ReadFish either with 
-    Guppy (GPU) basecalling or DeepNano-Blitz (cpu). Smaller figures below 
+    Guppy (GPU) base calling or DeepNano-Blitz (cpu). Smaller figures below 
     illustrate coverage over PML and RARA for the same experiments.
   </figcaption>
 </figure>
@@ -97,7 +97,7 @@ see chromosome 4).
 
 {% include 20201130_plot.html %}
 
-The difference in coverage is largely down to down to yield for each flowcell. 
+The difference in coverage is largely down to down to yield for each flow cell. 
 But there are some subtle differences which become apparent. Compare the GPU 
 and CPU coverage on the GridION. The GPU experiment had much lower yield, but 
 the median read length was shorter. Similarly, the Linux GPU has very low yield, 
@@ -183,8 +183,16 @@ pip install git+https://github.com/LooseLab/readfish@caller_refactor
 pip install ont_pyguppy_client_lib==4.0.11
 ```
 
+#### Setting the CPU caller
+
+To use DeepNano-Blitz for base calling the `caller_settings` table in the 
+experiment TOML file must contain the `network_type` parameter. For more 
+information on the available parameters see [TOML.md][6].
+
 [1]: https://academic.oup.com/bioinformatics/article/36/14/4191/5831289
 [2]: https://www.nanoporetech.com
 [3]: https://twitter.com/mattloose
 [4]: https://docs.microsoft.com/en-us/windows/wsl/install-win10
 [5]: https://github.com/alexomics/deepnano-blitz/actions/runs/324655081
+[6]: https://github.com/LooseLab/readfish/blob/caller_refactor/TOML.md#deepnano-blitz
+[7]: https://www.nature.com/articles/s41587-020-00746-x

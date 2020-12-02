@@ -27,7 +27,7 @@ exclude:
 # Options
 
 # Replace this value and uncomment to enable Google Analytics tracking
-# ga_analytics: UA-000000-0
+google_analytics: G-BKL69CXZLJ
 
 # deploy vars for testing, these should be ignored by github pages
 host: 0.0.0.0

@@ -256,8 +256,13 @@ a.sidebar-nav-item:focus {
   white-space: pre;
 }
 
+figure img {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 figure figcaption {
-    text-align: center;
-    font-size: small;
-    font-style: italic;
+  font: italic small sans-serif;
+  padding: 3px;
+  text-align: center;
 }

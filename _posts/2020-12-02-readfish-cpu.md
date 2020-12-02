@@ -116,7 +116,7 @@ observed. There is still room for tuning the windows based setup.
 | *Yield*              | 9.08&nbsp;Gb         | 14.93&nbsp;Gb        | 5.90&nbsp;Gb | 14.31&nbsp;Gb | 14.03&nbsp;Gb        | 17.27&nbsp;Gb |
 | *Mean Coverage*      | 31.30                | 29.78                | 19.11        | 27.78         | 29.08                | 34.47         |
 | *Coverage Std*       | 5.54                 | 5.30                 | 3.23         | 5.09          | 5.24                 | 6.62          |
-| *Flushes*            | 2\*                  | 2                    | 2            | 2             | 2                    | 3             |
+| *Flushes*            | 2                    | 2                    | 2            | 2             | 2                    | 3             |
 
 
 ## Hardware Requirements

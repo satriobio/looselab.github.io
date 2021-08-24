@@ -201,10 +201,10 @@ information on the available parameters see [TOML.md][6].
 [7]: https://www.nature.com/articles/s41587-020-00746-x
 [8]: /static/deepnano2-0.1-cp36-cp36m-linux_x86_64.whl
 [9]: /static/deepnano2-0.1-cp37-cp37m-linux_x86_64.whl
-[10]: /static/deepnano2-0.1-cp38-cp38m-linux_x86_64.whl
-[11]: /static/deepnano2-0.1-cp39-cp39m-linux_x86_64.whl
+[10]: /static/deepnano2-0.1-cp38-cp38-linux_x86_64.whl
+[11]: /static/deepnano2-0.1-cp39-cp39-linux_x86_64.whl
 [12]: /static/deepnano2-0.1-cp36-cp36m-macosx_10_15_x86_64.whl
 [13]: /static/deepnano2-0.1-cp37-cp37m-macosx_10_15_x86_64.whl
-[14]: /static/deepnano2-0.1-cp38-cp38m-macosx_10_15_x86_64.whl
-[15]: /static/deepnano2-0.1-cp39-cp39m-macosx_10_15_x86_64.whl
+[14]: /static/deepnano2-0.1-cp38-cp38-macosx_10_15_x86_64.whl
+[15]: /static/deepnano2-0.1-cp39-cp39-macosx_10_15_x86_64.whl
 [16]: https://github.com/LooseLab/readfish/issues/new/choose

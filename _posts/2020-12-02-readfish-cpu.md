@@ -142,13 +142,17 @@ flow cell type from ONT.
 We have not yet implemented real-time base calling for the downstream reads - 
 so any of our tools that look at base called reads to inform the choice of 
 reads for sequencing will not currently work.
- 
+
 ## So how do I set this up?
 
-To get started you will need to download the pre-built DeepNano-Blitz 
-installers from here: [https://github.com/alexomics/deepnano-blitz/actions/runs/324655081][5].
-These have been built for Linux (using Ubuntu 18.04) and macOS on Python 
-versions 3.6, 3.7, and 3.8.
+To get started you will need to download the pre-built DeepNano-Blitz installers:
+
+ - Ubuntu:
+   - Python [3.6][8], [3.7][9], [3.8][10], [3.9][11]
+ - macOS:
+   - Python [3.6][12], [3.7][13], [3.8][14], [3.9][15]
+
+If you run into issues accessing or installing these, please [contact us][16].
 
 On Windows we use Windows Subsytem Linux (WSL) to run ReadFish. 
 To setup WSL see the [Microsoft documentation][4]. Once this is 
@@ -193,6 +197,14 @@ information on the available parameters see [TOML.md][6].
 [2]: https://www.nanoporetech.com
 [3]: https://twitter.com/mattloose
 [4]: https://docs.microsoft.com/en-us/windows/wsl/install-win10
-[5]: https://github.com/alexomics/deepnano-blitz/actions/runs/324655081
 [6]: https://github.com/LooseLab/readfish/blob/caller_refactor/TOML.md#deepnano-blitz
 [7]: https://www.nature.com/articles/s41587-020-00746-x
+[8]: /static/deepnano2-0.1-cp36-cp36m-linux_x86_64.whl
+[9]: /static/deepnano2-0.1-cp37-cp37m-linux_x86_64.whl
+[10]: /static/deepnano2-0.1-cp38-cp38m-linux_x86_64.whl
+[11]: /static/deepnano2-0.1-cp39-cp39m-linux_x86_64.whl
+[12]: /static/deepnano2-0.1-cp36-cp36m-macosx_10_15_x86_64.whl
+[13]: /static/deepnano2-0.1-cp37-cp37m-macosx_10_15_x86_64.whl
+[14]: /static/deepnano2-0.1-cp38-cp38m-macosx_10_15_x86_64.whl
+[15]: /static/deepnano2-0.1-cp39-cp39m-macosx_10_15_x86_64.whl
+[16]: https://github.com/LooseLab/readfish/issues/new/choose

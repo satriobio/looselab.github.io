@@ -148,9 +148,9 @@ reads for sequencing will not currently work.
 To get started you will need to download the pre-built DeepNano-Blitz installers:
 
  - Ubuntu:
-   - Python [3.6][8], [3.7][9], [3.8][10], [3.9][11]
+   - Python [3.6][8], [3.7][9], [3.8][10], [3.9][11], [3.10][17]
  - macOS:
-   - Python [3.6][12], [3.7][13], [3.8][14], [3.9][15]
+   - Python [3.6][12], [3.7][13], [3.8][14], [3.9][15], [3.10][18]
 
 If you run into issues accessing or installing these, please [contact us][16].
 
@@ -208,3 +208,5 @@ information on the available parameters see [TOML.md][6].
 [14]: /static/deepnano2-0.1-cp38-cp38-macosx_10_15_x86_64.whl
 [15]: /static/deepnano2-0.1-cp39-cp39-macosx_10_15_x86_64.whl
 [16]: https://github.com/LooseLab/readfish/issues/new/choose
+[17]: /static/deepnano2-0.1-cp310-cp310-linux_x86_64.whl
+[18]: /static/deepnano2-0.1-cp310-cp310-macosx_11_0_x86_64.whl

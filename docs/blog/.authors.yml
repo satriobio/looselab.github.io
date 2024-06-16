@@ -1,0 +1,9 @@
+authors:
+  mattloose:
+    name: Matt Loose
+    description: Creator
+    avatar: static/people/matt.jpg
+  alexpayne:
+    name: Alex Payne
+    description: Creator
+    avatar: static/people/default.jpg

@@ -6,7 +6,7 @@ authors:
 ---
 
 <div style="width: 450px; float: right;">
-  <img src="/img/readfish_logo.jpg" width="400px">
+  <img src="../img/readfish_logo.jpg" width="400px">
 </div>
 
 Up until now [ReadFish][7], and selective sequencing, have been limited to users 
@@ -33,7 +33,7 @@ This also enabled [@mattloose][3] to spend a happy weekend running selective
 sequencing on a human genome at home. 
 
 <figure>
-  <img src="/img/homeseq.png">
+  <img src="../img/homeseq.png">
   <figcaption>Happy home readfishing...</figcaption>
 </figure>
 
@@ -57,7 +57,7 @@ As can be seen, the coverage obtained with DeepNano-Blitz ReadFish is
 comparable (and on windows better!) than that seen on our original experiments.
 
 <figure>
-  <a href="/img/BRCA1.png"><img src="/img/BRCA1.png"></a>
+  <a href="../img/BRCA1.png"><img src="../img/BRCA1.png"></a>
   <figcaption>
     Coverage over BRCA1 when using the COSMIC panel and ReadFish either with 
     Guppy (GPU) base calling or DeepNano-Blitz (cpu). Smaller figures below 
@@ -83,10 +83,10 @@ comparable (and on windows better!) than that seen on our original experiments.
 
 <div class="row">
   <div class="column">
-    <a href="/img/PML.png"><img src="/img/PML.png"></a>
+    <a href="../img/PML.png"><img src="../img/PML.png"></a>
   </div>
   <div class="column">
-    <a href="/img/RARA.png"><img src="/img/RARA.png"></a>
+    <a href="../img/RARA.png"><img src="../img/RARA.png"></a>
   </div>
 </div>
 

@@ -41,15 +41,23 @@ hide:
 
 <div class="grid cards" style="text-align: center;"  markdown>
 
-- __:material-dna: Protocol:__ IntraOp
+- __:material-dna: Protocol:__ FindingNemo (v.kit14)
 
     ---
 
-    IntraOp
+    FindingNemo (v.kit14): A Toolkit for DNA Extraction, Library Preparation and P ...
 
-    [:simple-protocolsdotio: Protocol.io](https://www.protocols.io/view/findingnemo-in-oneday-ultra-long-ont-library-prepa-14egnzqzyg5d/v1)
 
-- 
+    [:simple-protocolsdotio: Protocol.io](https://www.protocols.io/view/findingnemo-v-kit14-a-toolkit-for-dna-extraction-l-5jyl8p38rg2w/v1)
+
+- __:material-dna: Protocol:__ Ultra-Long Sequencing of Yeast Cells
+
+    ---
+
+    Ultra-Long Sequencing of Yeast Cells (S. cerevisiae) on ONT Sequencers – A ...
+
+
+    [:simple-protocolsdotio: Protocol.io](https://www.protocols.io/view/findingnemo-v-kit14-a-toolkit-for-dna-extraction-l-5jyl8p38rg2w/v1)
 
 - 
 

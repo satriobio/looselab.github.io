@@ -7,7 +7,7 @@ authors:
 
 
 
-<img src="/img/readfish_logo.jpg">
+<img src="../img/readfish_logo.jpg">
 * [ReadFish](http://www.github.com/looselab/readfish)
 
 Today sees our [preprint](https://www.biorxiv.org/content/10.1101/2020.02.03.926956v2) on adaptive sampling graduate to a full paper. This was a lot of work from a lot of people and we're very happy to see the paper out.
@@ -19,7 +19,7 @@ If you want to read the paper, in Nature Biotechnology, you can do so [here](htt
 We show in the final version that we can capture targets at depths in excess of 50x on a single MinION flowcell as can be seen in the figure below.
 
 <figure>
-  <a href="/img/50xcov.png"><img src="/img/50xcov.png"></a>
+  <a href="../img/50xcov.png"><img src="../img/50xcov.png"></a>
   <figcaption>Illustrating 50x coverage over two genes from the COSMIC panel.</figcaption>
 </figure>
 
@@ -30,14 +30,14 @@ Firstly - why the name? Well - you gotta catch 'em all! If you don't know the li
 So what does ReadFish do? Well - it enables you to select molecules from a library computationally - to catch whatever you like - on any platform with access to GPU basecalling (currently linux only). We built ReadFish as a platform to develop methods to exploit this unique ability of nanopore sequencers and the current toolkit is just the start. 
 
 <figure>
-  <a href="/img/covsummary.png"><img src="/img/covsummary.png"></a>
+  <a href="../img/covsummary.png"><img src="../img/covsummary.png"></a>
   <figcaption>Coverage over two different runs for the entire COSMIC Panel.</figcaption>
 </figure>
 
 To date we have used ReadFish to capture many hundreds of genes to depths of around 30x (and sometimes up to 50x) on a single flowcell, enrich or deplete individual genomes from a background, and a personal favourite, identifying the composition of a sample and selecting individual components dynamically. ReadFish provides the ability to change what you are selecting for during a run in response to the data that has been seen to that point. This makes it adaptive.
 
 <figure>
-  <a href="/img/cent_rf.png"><img src="/img/cent_rf.png"></a>
+  <a href="../img/cent_rf.png"><img src="../img/cent_rf.png"></a>
   <figcaption>Proportion of bases sequenced mapping to each genome present within the Zymo collection. However, genomes are identified dynamically by ReadFish using centrifuge during the run.</figcaption>
 </figure>
 

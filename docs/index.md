@@ -56,7 +56,7 @@ hide:
 </style>
 
 <div class="jumbotron">
-    <img src="../static/whale.jpg" alt="Name">
+    <img src="static/whale.jpg" alt="Name">
     <div class="overlay">
         <h1>Welcome</h1>
         <p>Loose Lab</p>

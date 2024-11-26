@@ -10,7 +10,51 @@ hide:
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/pcooksey/bibtex-js@1.0.0/src/bibtex_js.min.js"></script>
 <bibtex src="../static/works.bib"></bibtex>
 
-<div id="bibtex_display"></div>
+<style>
+    /* Minimal style adjustments */
+    h1.header { margin-left: 8px; }
+    h1.YEAR { font-size: 17px; font-weight: bold; display: inline; margin-left: 8px; }
+</style>
+
+<div class="bibtex_structure">
+  <div class="group year" extra="DSC number">
+    <a href="#top" style="display: inline"><em>(Top of the page)</em></a>
+    <div style="padding-bottom: 10px;"></div>
+    <div class="sort journal" extra="DESC string">
+      <div class="templates"></div>
+    </div>
+  </div>
+</div>
+
+<div id="bibtex_display">
+  <div class="bibtex_template" style="display: none;">
+    <ul>
+      <li>
+        <span class="if title">
+          <a class="bibtexVar" href="http://www.website.com/~demo/papers/+BIBTEXKEY+.pdf" extra="BIBTEXKEY">
+            <span style="text-decoration: underline;" class="title"></span>,
+          </a>
+        </span>
+        <div class="if author">
+          <span class="author"></span>
+        </div>
+        <div>
+          <span class="if journal"><em><span class="journal"></span></em>,</span>
+          <span class="if publisher"><em><span class="publisher"></span></em>,</span>
+          <span class="if booktitle">In <em><span class="booktitle"></span></em>,</span>
+          <span class="if address"><span class="address"></span>,</span>
+          <span class="if month"><span class="month"></span>,</span>
+          <span class="if year"><span class="year"></span>.</span>
+          <span class="if note"><span class="note"></span></span>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>
+
+<div style="text-align: center;" markdown>
+  [List all publications](publications.md){ .md-button }
+</div>
 
 ## Protocols
 
@@ -59,7 +103,10 @@ hide:
 
     [:simple-protocolsdotio: Protocol.io](https://www.protocols.io/view/findingnemo-v-kit14-a-toolkit-for-dna-extraction-l-5jyl8p38rg2w/v1)
 
-- 
+- __Comming Soon!__
+
+    ---
+    
 
 </div>
 
@@ -124,4 +171,8 @@ hide:
 
     [:material-github: Github](https://github.com/satriobio/bulkvis)
 
+</div>
+
+<div style="text-align: center;" markdown>
+  [Go to LooseLab repo](https://github.com/Looselab){ .md-button }
 </div>
